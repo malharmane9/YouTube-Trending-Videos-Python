@@ -1,19 +1,3 @@
-'''import re, string, sys
-
-stops = set(open("../stop_words.txt").read().split(",") + list(string.ascii_lowercase))
-words = [x.lower() for x in re.split("[^a-zA-Z]+", open(sys.argv[1]).read()) if len(x) > 0 and x.lower() not in stops]
-unique_words = list(set(words))
-unique_words.sort(key=lambda x: words.count(x), reverse=True)
-print("\n".join(["%s - %s" % (x, words.count(x)) for x in unique_words[:25]]))'''
-
-
-'''This method aims at using as less lines of code as possible. Hence it does
-no include any comments. but I have included cmments in my code for the
-sake of understanding and marks. This code is consice and uses as many
-libraries as possible to lower the number of lines. My code is similar
-to this code and it ensure the minimal steps requirement. This method is
-called the code golf style. it is called so because in golf the ball is
-supposed to be hiit in the hole in less number of shots.'''
 
 '''We are writing a code for getting the 5 most viewed videos on youtube in
 24 hours.'''
